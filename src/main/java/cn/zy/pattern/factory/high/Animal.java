@@ -2,7 +2,7 @@
  * original(c) zhuoyan company
  * projectName: java-design-pattern
  * fileName: Animal.java
- * packageName: cn.zy.pattern.factory.high
+ * packageName: cn.zy.pattern.factory.deep
  * date: 2018-12-09 18:35
  * history:
  * <author>          <time>          <version>          <desc>
@@ -14,7 +14,7 @@ package cn.zy.pattern.factory.high;
  * @version: V1.0
  * @author: ending
  * @className: Animal
- * @packageName: cn.zy.pattern.factory.high
+ * @packageName: cn.zy.pattern.factory.deep
  * @description: 抽象动物类
  * @data: 2018-12-09 18:35
  **/

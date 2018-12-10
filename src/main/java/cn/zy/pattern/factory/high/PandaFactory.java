@@ -2,7 +2,7 @@
  * original(c) zhuoyan company
  * projectName: java-design-pattern
  * fileName: PandaFactory.java
- * packageName: cn.zy.pattern.factory.high
+ * packageName: cn.zy.pattern.factory.deep
  * date: 2018-12-09 18:36
  * history:
  * <author>          <time>          <version>          <desc>
@@ -14,7 +14,7 @@ package cn.zy.pattern.factory.high;
  * @version: V1.0
  * @author: ending
  * @className: PandaFactory
- * @packageName: cn.zy.pattern.factory.high
+ * @packageName: cn.zy.pattern.factory.deep
  * @description: 熊猫工厂类
  * @data: 2018-12-09 18:36
  **/

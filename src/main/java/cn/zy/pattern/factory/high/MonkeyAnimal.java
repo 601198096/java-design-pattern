@@ -2,7 +2,7 @@
  * original(c) zhuoyan company
  * projectName: java-design-pattern
  * fileName: MonkeyAnimal.java
- * packageName: cn.zy.pattern.factory.high
+ * packageName: cn.zy.pattern.factory.deep
  * date: 2018-12-09 18:39
  * history:
  * <author>          <time>          <version>          <desc>
@@ -14,7 +14,7 @@ package cn.zy.pattern.factory.high;
  * @version: V1.0
  * @author: ending
  * @className: MonkeyAnimal
- * @packageName: cn.zy.pattern.factory.high
+ * @packageName: cn.zy.pattern.factory.deep
  * @description: 猴子实现类
  * @data: 2018-12-09 18:39
  **/
