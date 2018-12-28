@@ -10,6 +10,9 @@
  */
 package cn.zy.pattern.stats;
 
+import cn.zy.pattern.stats.evn.Screen;
+import cn.zy.pattern.stats.share.Switch;
+import cn.zy.pattern.stats.simple.Account;
 import org.junit.Test;
 
 /**
@@ -23,11 +26,36 @@ import org.junit.Test;
 public class StatsTest {
 
     @Test
-    public void test(){
+    public void simpleTest(){
         Account account = new Account("小红", 500L);
         account.removeMonny(2000L);
 
         account.removeMonny(2000L);
         account.removeMonny(2000L);
+    }
+
+    @Test
+    public void shareTest(){
+        Switch aSwitch1 = new Switch();
+        Switch aSwitch2 = new Switch();
+
+        aSwitch1.onStats();
+        aSwitch2.onStats();
+
+        aSwitch1.offStats();
+        aSwitch2.offStats();
+
+        aSwitch2.onStats();
+        aSwitch1.onStats();
+    }
+
+    @Test
+    public void evnTest(){
+        Screen screen = new Screen();
+        screen.onClick();
+        screen.onClick();
+        screen.onClick();
+        screen.onClick();
+        screen.onClick();
     }
 }
